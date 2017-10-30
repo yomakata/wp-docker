@@ -15,7 +15,7 @@ services:
    wordpress:
      depends_on:
        - db
-     image: wordpress:4.8
+     image: wordpress:4.8.2
      volumes:
        - ./html/:/var/www/html
      ports:
