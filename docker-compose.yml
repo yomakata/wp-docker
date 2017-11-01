@@ -39,6 +39,5 @@ services:
      volumes:
       - /sessions
       - ~/docker/phpmyadmin/config.user.inc.php:/etc/phpmyadmin/config.user.inc.php
-      - /custom/phpmyadmin/theme/:/www/themes/theme/
 volumes:
        db_data:
