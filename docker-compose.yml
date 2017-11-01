@@ -37,6 +37,6 @@ services:
       - 8080:80
      volumes:
       - /sessions
-      - ./phpmyadmin/config.user.inc.php:/etc/phpmyadmin/config.user.inc.php
+      - ./phpmyadmin/:/etc/phpmyadmin
 volumes:
        db_data:
