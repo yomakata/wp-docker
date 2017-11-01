@@ -38,6 +38,6 @@ services:
       - 8080:80
      volumes:
       - /sessions
-      - ~/docker/phpmyadmin/config.user.inc.php:/etc/phpmyadmin/config.user.inc.php
+      - ./phpmyadmin/config.user.inc.php:/etc/phpmyadmin/config.user.inc.php
 volumes:
        db_data:
